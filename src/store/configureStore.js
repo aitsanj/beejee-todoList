@@ -30,7 +30,7 @@ export const store = createStore(rootReducer, persistedState, enhancers);
 store.subscribe(() => {
     saveToLocalStorage({
       users: {
-        user: store.getState().users.user
+        token: store.getState().users.token
       }
     })
 });

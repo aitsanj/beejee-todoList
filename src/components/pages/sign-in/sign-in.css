@@ -1,0 +1,19 @@
+.input {
+  border-radius: 5px;
+  border: 1px solid black;
+}
+
+.input:focus {
+  outline: none;
+}
+
+.haslogin-button {
+  outline: none;
+  color: #dea07d;
+  background: none;
+  border: none;
+}
+
+.haslogin-button:hover {
+  color: #bdbdbd;
+}

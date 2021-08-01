@@ -1,6 +1,6 @@
 import React from 'react'
 import { Switch, Route } from 'react-router-dom';
-import { Header, Home } from './components';
+import { Header, Home, SignIn } from './components';
 
 function App() {
   return (
@@ -8,11 +8,12 @@ function App() {
       <header className="sticky-top">
         <Header />
       </header>
-      <main>
+      <div>
         <Switch>
-          <Route path="/" excact component={Home} />
+          <Route path="/" exact component={ Home } />
+          <Route path="/sign-in" component={ SignIn } />
         </Switch>
-      </main>
+      </div>
     </>
   );
 }
