@@ -1,0 +1,19 @@
+.enter-button,
+.logout-butoon {
+  border-radius: 8px;
+  background-color: #1890ff;
+  color: white;
+  font-size: 16px;
+  outline: none;
+  border: 1px solid blue;
+}
+
+.enter-button,
+.logout-butoon:hover {
+  opacity: 0.6;
+}
+
+.logout-butoon {
+  background-color: #ff4d4f;
+  border: 1px solid red;
+}
